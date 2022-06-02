@@ -6,14 +6,16 @@ Microsoft Quick Authentication offers you the ability to let your users sign up 
 
 ### Prerequisites
 
-1. An active [Azure account](https://signup.azure.com/) (free)
-1. An application registered in Azure
-    1. Go to [Register an application](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps)
-    1. Select **New registration**
-    1. Enter a name for your application (e.g., "Contoso - Sign in With Microsoft")
-    1. Under **Supported Account Types**, select "Personal Microsoft Accounts Only"
-    1. Provide a Redirect URI with the “Single-page application (SPA)” option; at this time, we recommend that you use `*your domain*/blank.html` and that you serve a blank page at that endpoint
-    1. Complete the process by clicking "Register"
+In order to use Quick Authentication, you will need to register your website with Azure. To do that
+
+1. [Sign up for an Azure account](https://signup.azure.com/) (if you don’t have one already)
+1. Navigate to your [Registered Apps](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps)
+1. Select "New registration"
+1. Enter a name for your application (e.g., "Contoso - Sign in With Microsoft")
+1. Select "Personal Microsoft Accounts Only" under "Supported Account Types"
+1. Enter a Redirect URI; we recommend setting up your website to serve a blank page at a specific URL and entering that URL here (for example, `http://*your domain*/blank.html`)
+1. Choose "Single-page application (SPA)" when registering the Redirect URI
+1. Click the "Register" button to complete the process
 
 If you’d like to see the enhanced sign-in experience in Microsoft Edge:
 
