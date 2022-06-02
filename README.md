@@ -1,3 +1,12 @@
+---
+page_type: sample
+languages:
+- html
+- javascript
+products:
+- microsoft-authentication-library
+---
+
 # Integrating Microsoft Quick Authentication
 
 Microsoft Quick Authentication offers you the ability to let your users sign up and sign in to your website using a Microsoft Account (MSA). You are likely familiar with similar offerings from other providers (e.g., “Sign in with ________”) and this offering provides that same capability to connect with people who use Microsoft products and cloud services, such as Outlook, OneDrive, Xbox LIVE, and Microsoft 365.
